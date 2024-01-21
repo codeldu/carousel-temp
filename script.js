@@ -14,8 +14,6 @@ fetch("http://localhost:3000/Pulse")
         margin: 10,
         dots: true,
         loop: true,
-        autoPlay: true,
-        autoplayTimeout: 1000,
         responsive: {
           0: {
             items: 1,
@@ -27,6 +25,9 @@ fetch("http://localhost:3000/Pulse")
             items: 3,
           },
         },
+        autoplay: true,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 3000,
       });
     });
   });
